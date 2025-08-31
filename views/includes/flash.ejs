@@ -1,6 +1,6 @@
 
-<% if(success && success.length){ %>
-<div class="alert alert-success alert-dismissible fade show col-6 offset-3" role="alert">
+<% if(success && success.length) { %>
+<div class="alert alert-success alert-dismissible fade show mx-auto my-3 w-100 w-md-75 w-lg-50" role="alert">
   <%= success %>
   <button
     type="button"
@@ -9,10 +9,10 @@
     aria-label="Close"
   ></button>
 </div>
-<% }%>
+<% } %>
 
-<% if(error && error.length){ %>
-<div class="alert alert-danger alert-dismissible fade show col-6 offset-3" role="alert">
+<% if(error && error.length) { %>
+<div class="alert alert-danger alert-dismissible fade show mx-auto my-3 w-100 w-md-75 w-lg-50" role="alert">
   <%= error %>
   <button
     type="button"
@@ -21,4 +21,4 @@
     aria-label="Close"
   ></button>
 </div>
-<% }%>
+<% } %>
